@@ -1,0 +1,35 @@
+body {
+  background-color: #f0f0f0; /* Gray background */
+  color: white; /* White text */
+}
+
+.navbar {
+  background-color: #000; /* Black navigation bar */
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  color: white; 
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white; 
+}
+
+.dropdown-menu {
+  background-color: #000;
+}
+
+.dropdown-menu > li > a {
+  color: white; 
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  background-color: #333; /* Darker background on hover or focus */
+  color: white; /* White text on hover or focus */
+}
+
+.container {
+  margin-top: 60px; 
+}
